@@ -25,6 +25,7 @@ export const ChatContextProvider = ({ children, user }) => {
         setUserChats(response);
       }
     };
+    getUserChats();
   }, [user]);
 
   return (
